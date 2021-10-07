@@ -2,6 +2,8 @@
 
 [Goal-Achiever](https://github.com/maxts/goal-achiever) Sample project for use as skeleton using Nestjs, sqlite3, React w/ Typescript & Material Design.
 
+https://github.com/nestjs/nest/issues/963 exluding path is working in Nestjs now so setGlobalPrefix is used.
+
 ## Installation
 
 ```bash
