@@ -7,7 +7,7 @@ import { Footer } from '../Footer';
 
 import { FOOTER_HEIGHT } from '../../utils/constants';
 
-export const Layout: FC = ({ children }) => {
+const Layout: FC = ({ children }) => {
   const [open, setOpen] = useState(false);
   const toggleNavigation = () => setOpen((status) => !status);
 
@@ -43,3 +43,5 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   padding: theme.spacing(0, 1),
   ...theme.mixins.toolbar,
 }));
+
+export default Layout;
