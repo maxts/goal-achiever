@@ -6,7 +6,7 @@ import * as path from 'path';
 export class ClientService {
 	private readonly logger = new Logger(ClientService.name);
 	public async getApp() {
-		const basePath = path.join(__dirname, '..', '..', 'frontend', 'public');
+		const basePath = path.join(__dirname, '..', '..', '..', 'frontend', 'build');
 		const filePath = path.resolve(path.join(basePath, 'index.html'));
 		return new Promise((resolve, reject) => {
 		  fs.readFile(filePath, 'utf8', (err: NodeJS.ErrnoException, data: string) => {
