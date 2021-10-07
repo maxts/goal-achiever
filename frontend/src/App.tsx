@@ -6,7 +6,7 @@ import Layout from './components/Layout';
 import { PageDefault } from './components/PageDefault';
 
 import { AppContext, ThemeModeContext } from './contexts';
-import AppClient from './clients';
+import { AppClient } from './clients';
 import { routes } from './config';
 import { Route as AppRoute } from './types';
 import { getAppTheme } from './styles/theme';
